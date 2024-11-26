@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/stencil-components.esm.js"></script>
+  <script nomodule src="/build/stencil-components.js"></script>
+  <style>
+    shadow-component {
+      --background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+    <main role="main" class="mainContent">
+
+      <dom-component heading="My first heading">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam ipsam labore officia tempora, facere totam
+        dolores expedita a impedit itaque, provident incidunt doloremque, id ut obcaecati ipsa excepturi aut ratione?
+      </dom-component>
+
+      <shadow-component heading="My second heading">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam ipsam labore officia tempora, facere totam
+        dolores expedita a impedit itaque, provident incidunt doloremque, id ut obcaecati ipsa excepturi aut ratione?
+      </shadow-component>
+    </main>
+</body>
+
+</html>
