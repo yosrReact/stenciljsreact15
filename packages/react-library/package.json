@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@stencil/react-output-target": "^0.7.4",
+    "@stencil/react-output-target": "^0.8.2",
     "@test/stencil-components": "*"
   },
   "devDependencies": {
