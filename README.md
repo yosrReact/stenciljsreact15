@@ -1,4 +1,4 @@
-# Nextjs15StencilSSR
+# StencilWithReact
 
 Install all package
 on root folder ->
@@ -18,12 +18,7 @@ react-library ->
 npm run build
 ```
 
-react-library-ssr ->
-```
-npm run build
-```
-
-nextjs15 ->
+react-demo ->
 ```
 npm run dev
 ```
